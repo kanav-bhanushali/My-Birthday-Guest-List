@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>Project 80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+<style>
+    body{
+        background-image: url("https://pz-3-gatorwraps.netdna-ssl.com/wp-content/uploads/2015/03/Happy-Birthday-Banner-%E2%80%93-White-Gift-1920x960.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+  background-size: cover;
+        
+    }
+</style>
+</head>
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+           Guest List For My Birthday Party
+        </h3>
+        <br><br><br>
+           <div>
+            <input type="text" placeholder="Enter Name" name="Guest_Name" id="guest_name">
+            <br>
+           </div>
+           <br>
+           <button onclick="submit()" id="submit_button">
+            Submit
+        </button>
+        <div id="display">
+        </div>
+        
+        <hr>
+       <hr>
+        <div class="block2">
+            
+                <br><br>
+                <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+                    Guest List
+                    <button onclick="show()" id="show_button">
+                        Show </button>
+                        <div id="my_guest_list">
+
+                        </div>
+                 </h3>
+                  <hr><hr>
+                 <br><br> 
+                 <button onclick="sort()" id="sort_button">
+                    Sort </button>
+                    <div id="show_sort">
+        
+                    </div>
+
+                    <div>
+                     <input type="text" placeholder="Search Name" id="GuestsearchName">
+                     <br>
+                    </div>
+                    <div class="block2">
+                        <div id="display_Search_name">
+                        </div>
+                    <br>
+                    <button onclick="search()" id="search_button">
+                       Search</button>
+                    <div id="search_result"></div>
+        </center>
+</body>
+</html>
